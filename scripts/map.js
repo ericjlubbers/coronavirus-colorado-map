@@ -280,14 +280,7 @@ $(window).on('load', function() {
   allTextLabels = [];
 
   function loadAllGeojsons(p) {
-    if (p < polygonSettings.length && getPolygonSetting(p, '_polygonsGeojson
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        ')) {
+    if (p < polygonSettings.length && getPolygonSetting(p, '_polygonsGeojsonURL')) {
       // Pre-process popup properties to be used in onEachFeature below
       polygon = p;
       var popupProperties = getPolygonSetting(p, '_popupProp').split(';');
@@ -901,7 +894,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'Crafted ';
+    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
