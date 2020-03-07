@@ -307,8 +307,8 @@ span.legend-icon {
 }
 
 img.logo {
-  max-width: 150px;
-  padding-top:.5em;
+  max-width: 120px;
+  padding-top:.2em;
 }
 
 .leaflet-popup-content {
