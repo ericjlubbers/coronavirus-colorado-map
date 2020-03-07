@@ -58,7 +58,7 @@ h6 {
 }
 
 .leaflet-control-layers {
-  display:none;
+  display:none !important;
 }
 
 .leaflet-control-geocoder {
