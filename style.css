@@ -14,9 +14,9 @@ body {
 
 h3 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Libre Franklin",sans-serif;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 h5 {
@@ -26,12 +26,13 @@ h5 {
 }
 .map-intro {
   font-family:'Libre Franklin',sans-serif;
+  font-size:0.9em;
   font-weight:100;
 }
 
 .map-source {
   font-family:'Libre Franklin',sans-serif;
-  font-weight:900;
+  font-weight:700;
 }
 
 h6 {
