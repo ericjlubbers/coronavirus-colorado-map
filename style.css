@@ -57,6 +57,10 @@ h6 {
   border-radius: 5px;
 }
 
+.leaflet-control-layers {
+  display:none;
+}
+
 .leaflet-control-geocoder {
   z-index: 9999;
 }
