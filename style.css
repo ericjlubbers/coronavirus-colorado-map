@@ -316,3 +316,7 @@ img.logo {
   font-size:1.3em;
   line-height:1.5em;
 }
+
+.leaflet-left .map-title {
+  display:none !important;
+}
